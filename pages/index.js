@@ -230,7 +230,7 @@ export default function Home() {
             src="bluefish.gif"
             alt="Moving GIF"
             //ref={gifRef}
-            style={{ position: 'absolute', right: '70px', bottom: '375px' }}
+            style={{ position: 'absolute', right: '100px', bottom: '375px' }}
             height="200" 
           />
           <img
@@ -275,8 +275,8 @@ export default function Home() {
             src="greenfish.gif"
             alt="Moving GIF"
             //ref={gifRef}
-            style={{ position: 'absolute', left: '200px', bottom: '30px' }}
-            height="200" 
+            style={{ position: 'absolute', left: '260px', bottom: '100px' }}
+            height="150" 
           />
           <img
             src="seaweed-transparent-background-2.png"
