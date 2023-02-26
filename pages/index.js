@@ -81,6 +81,7 @@ export default function Home() {
       </Head>
 
       <div className="background">
+        <style>{'body { background-color: #3d479d; }'}</style>
         <Particles
           id="tsparticles"
           init={particlesInit}
@@ -200,7 +201,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <img src="/spotivibe_logo.png" className={styles.icon} />
-        <h3>spotivibe</h3>
+        <h3 style={{color: 'white'}}>spotivibe</h3>
         <form onSubmit={onSubmit}>
           <input
             type="text"
@@ -267,7 +268,7 @@ export default function Home() {
             src="pufferfish.png"
             alt="Moving GIF"
             //ref={gifRef}
-            style={{ position: 'absolute', right: '250px', bottom: '100px' }}
+            style={{ position: 'absolute', right: '250px', bottom: '180px' }}
             height="100" 
           />
           <img
@@ -276,6 +277,84 @@ export default function Home() {
             //ref={gifRef}
             style={{ position: 'absolute', left: '200px', bottom: '30px' }}
             height="200" 
+          />
+          <img
+            src="seaweed-transparent-background-2.png"
+            //ref={gifRef} 
+            style={{ position: 'absolute', left: '0px', bottom: '-30px' }}
+            height="400" 
+            width = "200"
+          />
+          <img
+            src="seaweed-transparent-background-2.png"
+            //ref={gifRef} 
+            style={{ position: 'absolute', right: '60px', bottom: '-30px' }}
+            height="400" 
+            width = "200"
+          />
+          <img
+            src="seaweed-transparent-background-2.png"
+            //ref={gifRef} 
+            style={{ position: 'absolute', left: '-60px', bottom: '-60px' }}
+            height="500" 
+            width = "200"
+          />
+          <img
+            src="sang.png"
+            style={{ position: 'absolute', right: '0px', bottom: '-120px' }}
+            height="300" 
+            width = "1600"
+          />
+          <img
+            src="seaweed-transparent-background-2.png"
+            //ref={gifRef} 
+            style={{ position: 'absolute', right: '260px', bottom: '-40px' }}
+            height="300" 
+            width = "200"
+          />
+          <img
+            src="seaweed-transparent-background-2.png"
+            //ref={gifRef} 
+            style={{ position: 'absolute', right: '360px', bottom: '-30px' }}
+            height="200" 
+            width = "100"
+          />
+          <img
+            src="seaweed-transparent-background-2.png"
+            //ref={gifRef} 
+            style={{ position: 'absolute', left: '100px', bottom: '-30px' }}
+            height="300" 
+            width = "150"
+          />
+          
+          
+          <img
+            src="seaweed-transparent-background-2.png"
+            //ref={gifRef} 
+            style={{ position: 'absolute', right: '800px', bottom: '-60px' }}
+            height="300" 
+            width = "200"
+          />
+          <img
+            src="seaweed-transparent-background-2.png"
+            //ref={gifRef} 
+            style={{ position: 'absolute', left: '230px', bottom: '-100px' }}
+            height="100" 
+            width = "200"
+          />
+          <img
+            src="seaweed-transparent-background-2.png"
+            //ref={gifRef} 
+            style={{ position: 'absolute', right: '100px', bottom: '-100px' }}
+            height="100" 
+            width = "200"
+          />
+          <img
+            src="seaweed-transparent-background-2.png"
+            //ref={gifRef} 
+            style={{ position: 'absolute', right: '560px', bottom: '-50px' }}
+            height="100" 
+            width = "200"
           />
           
         

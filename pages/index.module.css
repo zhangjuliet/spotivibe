@@ -5,6 +5,7 @@
     url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
   font-weight: normal;
   font-style: normal;
+  color: #f2f2f8; 
 }
 @font-face {
   font-family: "ColfaxAI";
@@ -12,6 +13,7 @@
     url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
   font-weight: bold;
   font-style: normal;
+  color: #f2f2f8; 
 }
 .main,
 .main input {
