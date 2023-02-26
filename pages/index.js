@@ -3,6 +3,8 @@ import { useState, useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import styles from "./index.module.css";
+import React, { useRef, useEffect } from 'react';
+
 
 export default function Home() {
   const [vibeInput, setVibeInput] = useState("");
@@ -53,6 +55,22 @@ export default function Home() {
     }
     setResult(resultsArray);
     console.log(resultsArray);
+
+      
+    // const gifRef = useRef(null);
+
+    // useEffect(() => {
+    //   let pos = 0;
+    //   const moveGif = () => {
+    //     pos += 1;
+    //     gifRef.current.style.left = `${pos}px`;
+    //     if (pos >= window.innerWidth) {
+    //       pos = 0;
+    //     }
+    //   };
+    //   const interval = setInterval(moveGif, 10);
+    //   return () => clearInterval(interval);
+    // }, []);
   }
 
   return (
@@ -196,7 +214,72 @@ export default function Home() {
         <div className={styles.result}>{result.map((item, index) => (
           <div key={index}>{item}</div>
         ))}</div>
+
       </main>
+      
+      <div className="fish">
+        <img
+              src="purplefish.gif"
+              alt="Moving GIF"
+              //ref={gifRef}
+              style={{ position: 'absolute', right: '0px', bottom: '0px' }}
+              height="200" 
+            />
+        <img
+            src="bluefish.gif"
+            alt="Moving GIF"
+            //ref={gifRef}
+            style={{ position: 'absolute', right: '70px', bottom: '375px' }}
+            height="200" 
+          />
+          <img
+            src="orangefish.gif"
+            alt="Moving GIF"
+            //ref={gifRef}
+            style={{ position: 'absolute', left: '100px', bottom: '300px', transform: [
+              {scaleX: "-1"}
+          ]}}
+            height="200" 
+          />
+
+          <img
+            src="greenfish.gif"
+            alt="Moving GIF"
+            //ref={gifRef}
+            style={{ position: 'absolute', right: '0px', top: '30px' }}
+            height="100" 
+          />
+          <img
+            src="rainbowfish.gif"
+            alt="Moving GIF"
+            //ref={gifRef}
+            style={{ position: 'absolute', right: '500px', bottom: '0px' }}
+            height="250" 
+          />
+          <img
+            src="pufferfish.png"
+            alt="Moving GIF"
+            //ref={gifRef}
+            style={{ position: 'absolute', left: '50px', top: '100px' }}
+            height="100" 
+          />
+          <img
+            src="pufferfish.png"
+            alt="Moving GIF"
+            //ref={gifRef}
+            style={{ position: 'absolute', right: '250px', bottom: '100px' }}
+            height="100" 
+          />
+          <img
+            src="greenfish.gif"
+            alt="Moving GIF"
+            //ref={gifRef}
+            style={{ position: 'absolute', left: '200px', bottom: '30px' }}
+            height="200" 
+          />
+          
+        
+      </div>
     </div>
   );
 }
