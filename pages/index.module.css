@@ -67,10 +67,15 @@
 .main .result {
   margin-top: 40px;
   color: rgb(233, 233, 233);
+  z-index: 1;
 }
 .background {
   background-color: #3d479d;
 }
 .fish {
-  bottom:0;
+  bottom: 0;
+}
+.serif {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
 }

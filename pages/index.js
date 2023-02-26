@@ -201,7 +201,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <img src="/spotivibe_logo.png" className={styles.icon} />
-        <h3 style={{color: 'white'}}>spotivibe</h3>
+        <h3 style={{color: 'white'}}>spoti<span style={{ fontFamily: "serif", fontStyle: "italic", fontWeight: 5, fontSize: 37 }}>vibe</span></h3>
         <form onSubmit={onSubmit}>
           <input
             type="text"
