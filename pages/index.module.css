@@ -19,6 +19,7 @@
   line-height: 24px;
   color: #353740;
   font-family: "ColfaxAI", Helvetica, sans-serif;
+  z-index: 1;
 }
 .main {
   display: flex;
@@ -64,4 +65,7 @@
 .main .result {
   font-weight: bold;
   margin-top: 40px;
+}
+.background {
+  background-color: #373E79;
 }

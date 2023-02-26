@@ -49,7 +49,11 @@ export default async function (req, res) {
 }
 
 function generatePrompt(vibe) {
-  const capitalizedVibe =
-    vibe[0].toUpperCase() + vibe.slice(1).toLowerCase();
-  return `Suggest three songs for a Spotify playlist with the following vibe: ${capitalizedVibe}`;
+  return `Suggest a song for a Spotify playlist with the following vibe: ${vibe}.
+  
+  The format should be: "Song" by Artist
+
+  For example, given an input of "happy", the output should be formatted like:
+  "Happy" by Pharrell Williams
+  `;
 }
