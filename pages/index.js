@@ -59,7 +59,7 @@ export default function Home() {
     <div>
       <Head>
         <title>spotivibe</title>
-        <link rel="icon" href="/music_note.png" />
+        <link rel="icon" href="/spotivibe_logo.png" />
       </Head>
 
       <div className="background">
@@ -181,7 +181,7 @@ export default function Home() {
       </div>
 
       <main className={styles.main}>
-        <img src="/music_note.png" className={styles.icon} />
+        <img src="/spotivibe_logo.png" className={styles.icon} />
         <h3>spotivibe</h3>
         <form onSubmit={onSubmit}>
           <input
