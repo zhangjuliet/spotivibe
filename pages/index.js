@@ -81,7 +81,7 @@ export default function Home() {
       </Head>
 
       <div className="background">
-        <style>{'body { background-color: #3d479d; }'}</style>
+        <style>{'body { background-color: #246589; }'}</style>
         <Particles
           id="tsparticles"
           init={particlesInit}
