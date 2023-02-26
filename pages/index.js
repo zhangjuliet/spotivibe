@@ -206,11 +206,11 @@ export default function Home() {
           <input
             type="text"
             name="vibe"
-            placeholder="Enter a vibe"
+            placeholder="enter a vibe"
             value={vibeInput}
             onChange={(e) => setVibeInput(e.target.value)}
           />
-          <input type="submit" value="Generate Playlist" />
+          <input type="submit" value="dive in!" />
         </form>
         <div className={styles.result}>{result.map((item, index) => (
           <div key={index}>{item}</div>
@@ -326,8 +326,6 @@ export default function Home() {
             height="300" 
             width = "150"
           />
-          
-          
           <img
             src="seaweed-transparent-background-2.png"
             //ref={gifRef} 
@@ -356,8 +354,6 @@ export default function Home() {
             height="100" 
             width = "200"
           />
-          
-        
       </div>
     </div>
   );
