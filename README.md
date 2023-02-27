@@ -1,6 +1,9 @@
-# spotivibe
+# 🎶 [spotivibe](https://spotivibe.tech/) 🎶
+_Input any prompt and get a custom playlist automatically generated!_
 
-## Setup
+![spotivibe](https://user-images.githubusercontent.com/65837446/221470197-978648f4-5dec-4b8d-ae34-5fecc916afcc.gif)
+
+## Development Setup
 
 1. [Install Node.js](https://nodejs.org/en/) with version >= 14.6.0
 
@@ -34,3 +37,6 @@
    ```
 
 7. View the app at [http://localhost:3000](http://localhost:3000)
+
+## Contributors
+Juliet Zhang, Amanda Lu, and Prableen Kaur for AthenaHacks 2023
